@@ -1,0 +1,16 @@
+*, *:after, *:before{
+	box-sizing: border-box;
+}
+
+
+#entry {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#entry li {
+	list-style: none;
+	margin-bottom: 1em;
+}
