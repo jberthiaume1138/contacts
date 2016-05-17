@@ -14,22 +14,17 @@ var Contact = {
 
 var ContactManager = {
 
-	createContact: function() {
-		
-		console.log(contact.firstName);
-
-	},
-
 	validateInput: function() {
-
+		//TODO
 	},
 
 	store: function(contact) {
-		// shove the contact object into local storage
+		// store the new contact object into local storage
 
+		// display the new contact in a list with all others
     	var newLi = $('<li>');
     	newLi.append(contact.lastName + ', ' + contact.firstName);
-    	newLi.append($('<button>Details</button>').attr({'class': 'btnDetail'}));
+
 
     	$('#list-of-contacts').append(newLi);
 
@@ -60,9 +55,6 @@ $('#btnAddContact').click(function() {
 	ContactManager.store(contact);
 });
 
-$('.btnDetail').click(function() {
-	console.log('detail clicked');
-});
 
 
 })();
