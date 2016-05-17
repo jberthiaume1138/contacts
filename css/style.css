@@ -3,7 +3,7 @@
 }
 
 
-#entry {
+#entry ul {
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
