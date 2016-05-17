@@ -26,8 +26,8 @@
 				<input id="telephone" type="text" placeholder="XXX-XXX-XXXX">
 			</li>
 			<li class="input-list-item">
-				<label for="street">Street </label><br>
-				<input id="street" type="text" placeholder="street address">
+				<label for="address">Address </label><br>
+				<input id="address" type="text" placeholder="street address">
 			</li>
 			<li class="input-list-item">
 				<label for="city">City </label><br>
@@ -37,6 +37,10 @@
 				<label for="state">State </label><br>
 				<input id="state" type="text" placeholder="NY">
 			</li>
+			<li class="input-list-item">
+				<label for="country">State </label><br>
+				<input id="country" type="text" placeholder="country">
+			</li>
 		</ul>
 		<button id="btnAddContact">Add Contact</button>
 	</div>
@@ -45,7 +49,9 @@
 		<button id="btnEdit">Edit</button>
 	</div>
 
-	<div id="contact-list"></div>
+	<div id="contact-list">
+		<ul id="list-of-contacts"></ul>
+	</div>
 
 	
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
