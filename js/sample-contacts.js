@@ -3,7 +3,7 @@ var samples = [
 		firstName: 'Bruce',
 		lastName: 'Wayne',
 		telephone: '1234567890',
-		address: '1 Wayne Drive',
+		address: '1007 Mountain Drive',
 		city: 'Gotham',
 		state: 'NY',
 		country: 'USA'
@@ -21,7 +21,7 @@ var samples = [
 		firstName: 'Barry',
 		lastName: 'Allen',
 		telephone: '1234567890',
-		address: '1 Speedster Drive',
+		address: '#1 Speedforce',
 		city: 'Central City',
 		state: '',
 		country: 'USA'

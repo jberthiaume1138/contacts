@@ -1,24 +1,27 @@
 (function(){
 'use strict'
 
-var Contact = {
-
-	firstName: '',
-	lastName: '',
-	telephone: '',
-	address: '',
-	city: '',
-	state: '',
-	country: ''
+function Contact (firstName, lastName, telephone, address, city, state, country) {
+	this.firstName = firstName;
+	this.lastName = lastName;
+	this.telephone = telephone;
+	this.address = address;
+	this.city = city;
+	this.state = state;
+	this.country = country;
 };
 
 var ContactManager = {
+
 
 	validateInput: function() {
 		//TODO
 	},
 
 	store: function(contact) {
+		
+		var contact = new Contact();
+
 		// store the new contact object into local storage
 
 		// display the new contact in a list with all others
